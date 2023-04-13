@@ -1,0 +1,30 @@
+:root{
+    --link-color: #d23669;
+    --text-color: #222;
+    --bg-color: #fff;
+    --outline-color: var(--link-color);
+
+}
+html{
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*, *::before,
+*::after{
+    box-sizing: inherit;
+}
+
+.container{
+    width: 100%;
+    max-width: 660px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content{
+    flex-grow: 1;
+}
